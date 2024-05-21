@@ -11,7 +11,10 @@ names.forEach(
 });
 
 //Log each province 
-provides.forEach
+provides.forEach(
+  (province) => {
+    console.log(province);
+});
 
 
 
