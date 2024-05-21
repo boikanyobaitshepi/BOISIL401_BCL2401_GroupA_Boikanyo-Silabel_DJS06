@@ -4,6 +4,16 @@ const provinces = ['Western Cape', 'Gauteng', 'Northern Cape', 'Eastern Cape', '
 // A list of names:
 const names = ['Ashwin', 'Sibongile', 'Jan-Hendrik', 'Sifso', 'Shailen', 'Frikkie']
 
+//log each name
+
+
+
+
+
+
+
+
+
 // A list of products with prices:
 const products = [
   { product: 'banana', price: "2" },
