@@ -17,6 +17,9 @@ provinces.forEach(
 });
 
 //log each name with matching province
+names.forEach((name , index) => {
+  console.log(`${name} lives in ${provinces[index]}`);
+})
 
 
 
