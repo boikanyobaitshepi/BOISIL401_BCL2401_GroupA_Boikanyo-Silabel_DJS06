@@ -7,6 +7,8 @@ const upperCaseProvinces = provinces.map (province.toUpperCase());
 // Log the new array to the console
 console.log(upperCaseProvinces);
 
+//create a new array with province names in all uppercase
+
 // A list of names:
 const names = ['Ashwin', 'Sibongile', 'Jan-Hendrik', 'Sifso', 'Shailen', 'Frikkie']
 
