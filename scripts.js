@@ -16,6 +16,8 @@ provinces.forEach(
     console.log(province);
 });
 
+//log each name with matching province
+
 
 
 
