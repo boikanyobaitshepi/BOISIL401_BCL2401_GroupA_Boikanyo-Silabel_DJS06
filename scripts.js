@@ -1,7 +1,11 @@
 // A list of provinces:
 const provinces = ['Western Cape', 'Gauteng', 'Northern Cape', 'Eastern Cape', 'KwaZulu-Natal', 'Free State']
+
 //create a new array with province names in all uppercase
 const upperCaseProvinces = provinces.map (province.toUpperCase());
+
+console.log(upperCaseProvinces);
+
 
 // A list of names:
 const names = ['Ashwin', 'Sibongile', 'Jan-Hendrik', 'Sifso', 'Shailen', 'Frikkie']
