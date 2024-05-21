@@ -10,6 +10,9 @@ names.forEach(
     console.log(name);
 });
 
+//Log each province 
+provides.forEach
+
 
 
 
