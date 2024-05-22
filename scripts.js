@@ -14,6 +14,8 @@ const nameLengths = names.map(name => name.length);
 console.log(nameLengths);
 
 
+// Sort the provinces alphabetically
+
 
 // A list of names:
 const names = ['Ashwin', 'Sibongile', 'Jan-Hendrik', 'Sifso', 'Shailen', 'Frikkie']
