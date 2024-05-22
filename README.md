@@ -39,7 +39,7 @@ const products = [
 7. **Creating Object Mapping**: Use `reduce` to transform the names array into an object mapping names to their respective provinces.
 
 #### Advanced Exercises (Single `console.log` Execution)
-For these exercises, wrap your logic in a single `console.log` statement:
+For these exercises, wrap your logic in a single `console.log` statement:M
 
 1. **Log Products**: Iterate over the products array, logging each product name.
 2. **Filter by Name Length**: Filter out products with names longer than 5 characters.
