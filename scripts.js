@@ -11,6 +11,8 @@ console.log(upperCaseProvinces);
 const namelengths = names.map(name => name.length);
 console.log(namelengths);
 
+// Create a new array that contains the length of each name
+
 // A list of names:
 const names = ['Ashwin', 'Sibongile', 'Jan-Hendrik', 'Sifso', 'Shailen', 'Frikkie']
 
