@@ -15,6 +15,8 @@ console.log(nameLengths);
 
 
 // Sort the provinces alphabetically
+const sortedProvinces = [...provinces].sort(); // Using spread to avoid mutating the original array
+console.log(sortedProvinces);
 
 
 // A list of names:
