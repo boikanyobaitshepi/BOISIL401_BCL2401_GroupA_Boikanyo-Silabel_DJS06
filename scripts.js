@@ -27,6 +27,14 @@ const namesContainS = names.map(name => name.toLowerCase().includes('s'));
 console.log(namesContainS);
 
 
+// 7. Use reduce to transform the names array into an object mapping names to their
+ provinces
+const nameProvinceMapping = names.reduce((acc, name, index) => {
+  acc[name] = provinces[index];
+  return acc;
+}, {});
+console.log(nameProvinceMapping);
+
 
 // A list of names:
 const names = ['Ashwin', 'Sibongile', 'Jan-Hendrik', 'Sifso', 'Shailen', 'Frikkie']
