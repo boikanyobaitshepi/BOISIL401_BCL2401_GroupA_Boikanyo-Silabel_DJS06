@@ -22,7 +22,7 @@ console.log(sortedProvinces);
 const filteredProvinces = provinces.filter(province => !province.includes('Cape'));
 console.log(filteredProvinces.length);
 
-
+//Create a boolean array to determine if a name contains the letter 'S'
 
 
 
