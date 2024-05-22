@@ -18,6 +18,7 @@ console.log(nameLengths);
 const sortedProvinces = [...provinces].sort(); // Using spread to avoid mutating the original array
 console.log(sortedProvinces);
 
+// Filter to remove provinces containing "Cape" and log the count of remaining provinces
 
 // A list of names:
 const names = ['Ashwin', 'Sibongile', 'Jan-Hendrik', 'Sifso', 'Shailen', 'Frikkie']
