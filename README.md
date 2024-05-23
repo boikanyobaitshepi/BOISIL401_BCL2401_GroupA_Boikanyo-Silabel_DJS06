@@ -1,4 +1,7 @@
-### DJS06 Project Brief: Higher Order Functions
+
+
+
+/### DJS06 Project Brief: Higher Order Functions
 
 #### Objective
 This project is designed to challenge and deepen your understanding of JavaScript's powerful array methods. You'll manipulate data using `forEach`, `map`, `filter`, `reduce`, and more, to perform a variety of tasks. This exercise will test your ability to apply these methods in combination to solve complex problems and achieve desired outcomes.
