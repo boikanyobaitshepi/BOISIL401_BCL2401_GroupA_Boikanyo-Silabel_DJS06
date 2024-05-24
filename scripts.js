@@ -41,3 +41,5 @@ const products = [
 products.forEach(product => {
   console.log(product.name);
 });
+
+// Filter by Name Length
