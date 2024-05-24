@@ -37,26 +37,35 @@ const products = [
   { product: 'tea', price: '' },
 ];
 
-// Log Products
-products.forEach((products) => console.log(products.product));
+// Log each product name
+products.forEach(product => {
+  console.log(product.product);
+});
 
 // Filter by Name Length
-console.log(products.filter((products) => products.product.length <= 5));
+const filteredByNameLength = products.filter(product => product.product.length <= 5);
+console.log(filteredByNameLength);
 
 // Price Manipulation
-console.log(
-  products
-    .filter((products) => products.price !== " " && products.price !== "")
-    .map((product) => Number(product.price))
-    .reduce((sum, a) => (sum = sum + a), 0)
-);
+const productsWithPrices = products.filter(product => product.price && product.price !== " ");
+const totalPrice = productsWithPrices
+  .map(product => parseFloat(product.price))
+  .reduce((total, price) => total + price, 0);
+console.log(`Total Price: ${totalPrice}`);
 
 // Concatenate Product Names
-console.log(products.reduce((sum, a) => (sum = sum + a.product), ""));
+const concatenatedNames = products.reduce((acc, product) => acc + product.product, "");
+console.log(concatenatedNames);
+
+// Find Extremes in Prices
+const prices = productsWithPrices.map(product => parseFloat(product.price));
+const highestPrice = Math.max(...prices);
+const lowestPrice = Math.min(...prices);
+console.log(`Highest: ${highestPrice}. Lowest: ${lowestPrice}`);
 
 // Object Transformation
 const transformedProducts = products.map(product => ({
-  name: product.name,
+  name: product.product,
   cost: product.price
 }));
 console.log(transformedProducts);
