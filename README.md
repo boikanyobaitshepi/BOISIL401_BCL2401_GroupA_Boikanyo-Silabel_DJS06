@@ -61,6 +61,6 @@ For these exercises, wrap your logic in a single `console.log` statement:M
 
 - Correct application of JavaScript array methods to solve the given problems.
 - Ability to combine multiple array methods to manipulate and transform data effectively.
-- Code readability and efficiency.
+- Code readability and efficiency.   
 - Thoughtful commentary and explanation of your solution approach and decision-making process.
 
