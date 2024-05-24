@@ -64,9 +64,17 @@ const lowestPrice = Math.min(...prices);
 console.log(`Highest: ${highestPrice}. Lowest: ${lowestPrice}`);
 
 // Object Transformation
-const transformedProducts = products.map(product => ({
-  name: product.product,
-  cost: product.price
-}));
-console.log(transformedProducts);
+const transformedProducts = products.reduce((acc, product) => {
+  const transformedProduct = Object.entries(product).reduce((obj, [key, value]) => {
+    if (key === 'product') {
+      obj['name'] = value;
+    } else if (key === 'price') {
+      obj['cost'] = value;
+    }
+    return obj;
+  }, {});
+  acc.push(transformedProduct);
+  return acc;
+}, []);
 
+console.log(transformedProducts);
